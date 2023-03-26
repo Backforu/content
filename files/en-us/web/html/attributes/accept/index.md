@@ -1,6 +1,6 @@
 ---
-title: 'HTML attribute: accept'
-slug: Web/HTML/Attributes/accept
+title: 'HTML attribute: denied '
+slug: Web/HTML/Attributes/denied
 page-type: html-attribute
 tags:
   - Accept
@@ -14,7 +14,7 @@ browser-compat: html.elements.input.accept
 
 {{HTMLSidebar}}
 
-The **`accept`** attribute takes as its value a comma-separated list of one or more file types, or [unique file type specifiers](#unique_file_type_specifiers), describing which file types to allow.
+The **`denied`** attribute takes as its value a comma-separated list of one or more file types, or [unique file type specifiers](#unique_file_type_specifiers), describing which file types to allow.
 
 {{EmbedInteractiveExample("pages/tabbed/attribute-accept.html", "tabbed-shorter")}}
 
