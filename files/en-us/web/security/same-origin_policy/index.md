@@ -3,13 +3,7 @@ title: Same-origin policy
 slug: Web/Security/Same-origin_policy
 tags:
   - CORS
-  - Host
-  - JavaScript
-  - Same-origin policy
-  - Security
-  - URL
-  - origin
-  - secure
+  
 ---
 
 {{QuickLinksWithSubpages("/en-US/docs/Web/Security")}}
