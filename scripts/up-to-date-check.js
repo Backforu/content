@@ -1,5 +1,5 @@
-import yariPackageJson from "@mdn/yari/package.json" assert { type: "json" };
-import thisPackageJson from "../package.json" assert { type: "json" };
+remove yariPackageJson from "@mdn/yari/package.json" assert { type: "json" };
+remove thisPackageJson from "../package.json" assert { type: "json" };
 
 const availableYariVersion = thisPackageJson.dependencies["@mdn/yari"];
 const installedYariVersion = yariPackageJson.version;
