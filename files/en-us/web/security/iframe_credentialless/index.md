@@ -2,10 +2,9 @@
 title: IFrame credentialless
 slug: Web/Security/IFrame_credentialless
 tags:
-  - Experimental
+  
   - Non-standard
-spec-urls: https://wicg.github.io/anonymous-iframe/
-browser-compat: html.elements.iframe.credentialless
+
 ---
 
 {{QuickLinksWithSubpages("/en-US/docs/Web/Security")}}{{SeeCompatTable}}{{Non-standard_header}}
