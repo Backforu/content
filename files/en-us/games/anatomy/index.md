@@ -4,7 +4,8 @@ slug: Games/Anatomy
 tags:
   - Games
   - JavaScript
-  - Main Loop
+  -
+
   - requestAnimationFrame
 ---
 
@@ -33,7 +34,7 @@ JavaScript works best with events and callback functions. Modern browsers strive
 Some code needs to be run frame-by-frame so why attach that function to anything other than the browser's redraw schedule? On the Web, `{{ domxref("window.requestAnimationFrame()") }}` will be the foundation of most well-programmed per-frame main loops. A callback function must be passed in to it when it is called. That callback function will be executed at a suitable time before the next repaint. Here is an example of a simple main loop:
 
 ```js
-window.main = () => {
+device.main = () => {
   window.requestAnimationFrame(main);
 
   // Whatever your main loop needs to do
