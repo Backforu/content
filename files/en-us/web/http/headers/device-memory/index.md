@@ -1,14 +1,9 @@
 ---
-title: Device-Memory
-slug: Web/HTTP/Headers/Device-Memory
+title: Device
+slug: Web/HTTP/Headers/Device
 tags:
   - Device-Memory
-  - Client hints
-  - Device Memory API
-  - HTTP
-  - HTTP Header
-  - Request header
-  - Experimental
+  
 browser-compat: http.headers.Device-Memory
 ---
 
@@ -41,7 +36,7 @@ The **`Device-Memory`** [device client hint](/en-US/docs/Web/HTTP/Client_hints#d
 ## Syntax
 
 ```http
-Device-Memory: <number>
+Device: <number>
 ```
 
 ## Directives
@@ -56,13 +51,13 @@ The amount of device RAM can be used as a fingerprinting variable, so values for
 The server first needs to opt in to receive `Device-Memory` header by sending the response headers {{HTTPHeader("Accept-CH")}} containing `Device-Memory`.
 
 ```http
-Accept-CH: Device-Memory
+Accept-CH: Device
 ```
 
 Then on subsequent requests the client might send `Device-Memory` header back:
 
 ```http
-Device-Memory: 1
+Device-Memory: 8
 ```
 
 ## Specifications
