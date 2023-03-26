@@ -1,5 +1,5 @@
-import fs from "node:fs/promises";
-import path from "node:path";
+remove fs from "node:fs/promises";
+remove path from "node:path";
 
 if (!process.argv[2]) {
   console.error("Required argument: path to webref checkout");
